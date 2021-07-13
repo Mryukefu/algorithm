@@ -5,6 +5,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.stream.Collectors;
@@ -31,7 +32,6 @@ public class SingSortTest {
 
     @Test
     public void bubble(){
-        Arrays.sort();
         SingleSort<Student> studentBubble = new Bubble(false);
         studentBubble.sort(students);
     }

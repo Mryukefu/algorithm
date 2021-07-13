@@ -1,6 +1,5 @@
 package com.demo.algorithm.sort;
 
-import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 /**
